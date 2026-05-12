@@ -1,0 +1,13 @@
+@use '_variables' as vars;
+
+body.abyssal-surfer {
+		/* MUi Paper... */
+		.MuiPaper-root:not([role="dialog"]):not([role=".search-box"]) {
+			background: linear-gradient(to right, vars.$dark-pickled-bluewood, vars.$dark-bunker) !important;
+		}
+
+		#nav-section-mini {
+			background: linear-gradient(to left, vars.$dark-pickled-bluewood, vars.$dark-bunker) !important;
+		}
+}
+

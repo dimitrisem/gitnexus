@@ -1,0 +1,25 @@
+@use '../../components/Animated/_Animated';
+@use 'variables' as vars;
+
+/* Overrides... */
+.MuiPaper-root, .MuiPaper-root {
+	background-image: url('../../vendor/MuiMinimal/assets/imgs/cyan-blur.png'), url('../../vendor/MuiMinimal/assets/imgs/red-blur.png') !important;
+	background-repeat: no-repeat, no-repeat !important;
+	background-position: top right, left bottom !important;
+	background-size: 50%, 50% !important;
+}
+
+#ui-dialog {
+	.MuiPaper-root {
+		width: 100% !important;
+	}
+}
+
+.table-skeleton {
+	height:     '20px';
+	margin-left: auto;
+}
+
+.table-skeleton, .skeleton {
+	width: '100%';
+}

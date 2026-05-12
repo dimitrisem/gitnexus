@@ -1,0 +1,8 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Always redirect to index.html for SPAs (client-side routing)
+  RewriteRule ^$ index.html [L]
+  RewriteRule ^([a-zA-Z0-9-_/]+)$ index.html [L]
+</IfModule>

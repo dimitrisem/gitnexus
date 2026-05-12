@@ -1,0 +1,27 @@
+@use 'variables' as vars;
+
+::-webkit-scrollbar {
+	width: 15px;
+}
+
+::-webkit-scrollbar-track, ::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+}
+
+img {
+	user-drag: none;
+	-webkit-user-drag: none;
+	-moz-user-select: none;
+}
+
+.hvr {
+	transition: transform .25s vars.$bezier-butter !important;
+	will-change: transform !important;
+	cursor: pointer;
+	
+	&-shrink {
+		&:hover {
+			transform: scale3d(.9, .9, .9) !important;
+		}
+	}
+}

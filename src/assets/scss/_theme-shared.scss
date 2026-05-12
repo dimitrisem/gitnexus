@@ -1,0 +1,16 @@
+@use '_variables' as vars;
+
+/* Track */
+::-webkit-scrollbar-track {
+	background: vars.$turquoise-blue;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+	background: vars.$turquoise-water-leaf;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+	background: vars.$green-caribbean;
+}

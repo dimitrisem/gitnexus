@@ -1,0 +1,57 @@
+/* Animation... */
+$animation-delay-1ms: .1s;
+$animation-delay-2ms: .2s;
+$animation-delay-3ms: .3s;
+$animation-delay-4ms: .4s;
+$animation-delay-5ms: .5s;
+$animation-delays: ('1ms': 100ms, '2ms': 150ms, '3ms': 200ms, '4ms': 250ms, '5ms': 300ms, '6ms': 350ms, '7ms': 400ms, '8ms': 450ms, '9ms': 500ms, '1s': 550ms, '1.1s': 600ms);
+$path: '../imgs';
+
+/* Color Naming -> https://chir.ag/projects/name-that-color/... */
+/* Darks... */
+$dark-bunker: #151c23;
+$dark-mirage: #1C252E;
+$dark-ebony-clay: #212B36;
+$dark-pickled-bluewood: #273849;
+
+/* Whites / Silvers */
+$silver-chalice: #a7a7a7;
+$silver: #C9C9C9;
+$white-alto: #D4D4D4;
+$mercury: #E6E6E6;
+
+// Reds...
+$red-persimmon: #ff7a7a;
+$red-coral: #ff4646;
+$red-orange: #FF3030;
+
+/* Oranges... */
+$orange-web: #ffab00;
+$orange-vermilion: #FF4500;
+
+/* Blues... */
+$turquoise-water-leaf: #9de9d7;
+$turquoise-blue: #66EECE;
+$green-caribbean-darker: #00BB8F;
+$blue-cerulean: #00B8D9;
+$blue-nigara: #08a88a;
+
+/* Greens... */
+$green-caribbean: #00e2ad;
+
+/* Transition Timings... */
+$bezier-one: cubic-bezier(0.01, 0.28, 0.76, 1.12);
+$bezier-two: cubic-bezier(0.4, 0, 0.2, 1);
+$bezier-butter: cubic-bezier(0.09, 0.37, 0.46, 0.98);
+$bezier-butter-alt: cubic-bezier(0.02, 0.38, 0.15, 0.98);
+
+/* Layout */
+$layout-level: (
+	'negative': -1,
+	'zero': 0,
+	'low': 1,
+	'default': 2,
+	'high': 3,
+	'veryHigh': 4,
+	'max': 5,
+);

@@ -1,0 +1,20 @@
+@use '_variables' as vars;
+@use '_theme-shared';
+
+body.dark-theme {
+	background-color: vars.$dark-bunker !important;
+
+	/* MUi Paper... */
+	.MuiPaper-root:not([role="dialog"]) {
+		background-color: vars.$dark-mirage !important;
+	}
+	
+	/* Skeletons... */
+	.table-skeleton, .skeleton {
+		background-color: vars.$dark-bunker !important;
+		&:after {
+			background: linear-gradient(90deg, #ffffff00, #ffffff54, #ffffff00) !important;
+		}
+	}
+}
+

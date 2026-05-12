@@ -1,0 +1,18 @@
+@use '_variables' as vars;
+@use '_theme-shared';
+
+.light-theme {
+	background-color: vars.$silver !important;
+	/* MUi Paper... */
+	.MuiPaper-root:not([role="dialog"]) {
+		background-color: vars.$mercury !important;
+	}
+
+	/* Skeletons... */
+	.table-skeleton, .skeleton {
+		background-color: vars.$silver-chalice !important;
+		&:after {
+			background: linear-gradient(90deg, #ffffff00, #ffffff54, #ffffff00) !important;
+		}
+	}
+}
